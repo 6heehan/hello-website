@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.main.controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
