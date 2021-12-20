@@ -73,4 +73,9 @@ public class MainController {
 	public String hi() {
 		return "hi";
 	}
+	
+	@RequestMapping("/error/denied") 
+	public String errorDenied() {
+		return "error/denied";
+	}
 }
