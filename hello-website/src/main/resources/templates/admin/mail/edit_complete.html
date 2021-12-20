@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>이메일 템플릿 수정 결과</title>
+	</head>
+	<body>
+		<div th:if="${result}">
+			<h1>템플릿 수정 결과</h1>
+			<p>템플릿 수정이 완료되었습니다.</p>
+		</div>
+		
+
+		<div th:if="${result eq false}">
+			<h1>템플릿 수정 결과</h1>
+			<p>템플릿 수정에 실패하였습니다.</p>
+		</div>
+		
+		<a href="/admin/mail/template">템플릿 관리 화면으로 돌아가기</a>
+	</body>
+</html>
